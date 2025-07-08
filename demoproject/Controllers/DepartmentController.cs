@@ -30,7 +30,7 @@ namespace demoproject.Controllers
 
                 }
                 else { }
-                return NotFound(" ");
+                return NotFound("Something went wrong ");
             }
             catch (Exception ex)
             {
