@@ -29,8 +29,11 @@ namespace demoproject.Controllers
                     return Ok(DeptList);
 
                 }
-                else { }
-                return NotFound("Something went wrong will update soon ");
+                else 
+                {
+                    return NotFound("Records not Found ");
+                }
+                
             }
             catch (Exception ex)
             {
